@@ -33,7 +33,7 @@ CREATE DATABASE hospital_db
 ### 2. Configure .env
 Create a .env file in the project root:
 ```
-DB_NAME=hosptal_db
+DB_NAME=hospital_db
 DB_USER=your_postgres_user
 DB_PASSWORD=your_postgres_password
 DB_HOST=localhost
@@ -43,11 +43,11 @@ DB_PORT=5432
 ### 3. 📥 Load Data
 #### Step 1: Create Schema
 ```bash
-dataloader/load_schema.py
+pythin data_loader/load_schema.py
 ```
 #### Step 2: Convert JSON → CSV (optional if CSVs are already generated)
 ```bash
-python data_loader/json_to_csv.py
+python converter/converter_to_csv
 ```
 
 #### Step 3: Load CSVs into PostgreSQL
