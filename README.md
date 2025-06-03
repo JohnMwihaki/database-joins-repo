@@ -75,6 +75,6 @@ python data_loader/run_copy_commands.py
 
 ## 👨‍💻 Contributors
 - Arman ([Arman On Github](github.com/arman-develops))
-- john kimani ([john mwihaki On Github](github.com/JOHNMwihaki))
+- john kimani ([JohnMwihaki On Github](https://github.com/JohnMwihaki))
 
  🎉 Happy Coding Champ
