@@ -19,7 +19,7 @@ Install dependencies:
 ```bash
 python -m venv .venv
 source .venv/bin/activate 
-# or .venv\Scripts\activate on Windows
+# or  on Windows
 pip install -r requirements.txt
 ```
 
@@ -75,5 +75,6 @@ python data_loader/run_copy_commands.py
 
 ## 👨‍💻 Contributors
 - Arman ([Arman On Github](github.com/arman-develops))
+- john kimani ([john mwihaki On Github](github.com/JOHNMwihaki))
 
  🎉 Happy Coding Champ
