@@ -17,9 +17,13 @@ This project demonstrates various types of SQL joins using a sample PostgreSQL d
 Install dependencies:
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate 
-# or  on Windows
+.venv/bin/python3 -m pip install -r requirements.txt
+# or .venv\Scripts\activate on Windows
+
+python -m venv .venv
+.venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
