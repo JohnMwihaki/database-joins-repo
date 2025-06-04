@@ -47,16 +47,25 @@ DB_PORT=5432
 ### 3. 📥 Load Data
 #### Step 1: Create Schema
 ```bash
-pythin data_loader/load_schema.py
+python data_loader/load_schema.py
+
+# or  for linux users
+
+python3 data_loader/load_schema.py
+
 ```
 #### Step 2: Convert JSON → CSV (optional if CSVs are already generated)
 ```bash
-python converter/converter_to_csv
+python converter/convert_to_csv.py
 ```
 
 #### Step 3: Load CSVs into PostgreSQL
 ```bash
 python data_loader/run_copy_commands.py
+
+# or for linux users
+python3 data_loader/run_copy_commands.py
+
 ```
 
 ### 🧪 Sample Tables

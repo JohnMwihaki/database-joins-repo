@@ -1,4 +1,4 @@
 data/csv
 env/
-venv/
+.venv/
 .env
